@@ -19,7 +19,7 @@ export default function Page() {
   return (
     <>
       {/* Contenedor Principal del Hero */}
-      <Box as="section" height="100vh" overflowX="hidden">
+      <Box as="section" height="100vh" overflowX="hidden" bgColor={'white'}>
         <Container maxW={"7xl"} pt={16}>
           <Stack
             align={"center"}
